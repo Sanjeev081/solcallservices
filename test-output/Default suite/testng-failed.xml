@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.solcallservices.qa.Testcases.HomepageTest">
+        <methods>
+          <include name="validatecontactlinkTest"/>
+          <include name="integratedproductlinkTest"/>
+          <include name="validateNumberoflinkTest"/>
+          <include name="VerifysolcallserviceslogoTest"/>
+          <include name="setup"/>
+          <include name="validatenetsuiteserviceslinkTest"/>
+          <include name="scrolldownTest"/>
+          <include name="readmorebtntest"/>
+          <include name="validateservicelinkTest"/>
+          <include name="teardown"/>
+          <include name="getintouchbtntest"/>
+          <include name="getpageInnerTextTest"/>
+          <include name="verifyHomepageTitleTest"/>
+          <include name="validateAboutnetsuitelinkTest"/>
+          <include name="verifyHomepageText"/>
+        </methods>
+      </class> <!-- com.solcallservices.qa.Testcases.HomepageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
