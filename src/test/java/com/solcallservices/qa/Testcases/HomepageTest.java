@@ -2,6 +2,10 @@ package com.solcallservices.qa.Testcases;
 
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
+
+import java.io.IOException;
+import java.net.MalformedURLException;
+
 import org.testng.Assert;
 import org.testng.AssertJUnit;
 import org.testng.annotations.AfterMethod;
@@ -71,7 +75,7 @@ public class HomepageTest extends TestBase {
 	boolean b1=	homepage.validateHomeText();
 	Assert.assertTrue(b1);
 	
-		
+		 
 	}
 	@Test(priority=8)
 	
@@ -98,8 +102,8 @@ public class HomepageTest extends TestBase {
 
 	}
 	@Test(priority=13)
-	public void validateNumberoflinkTest() {
-		homepage.validateNumberoflink();
+	public void validateNumberoflinkTest() throws MalformedURLException, IOException {
+		homepage.validateNumberofBrokenlink();
 		
 	}
 
